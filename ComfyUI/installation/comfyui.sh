@@ -1,8 +1,9 @@
 #!/bin/bash
 
-comfyui_dir="~/ComfyUI"
+source /etc/network_turbo
+cd ~
 
-git clone --depth 1 https://github.com/comfyanonymous/ComfyUI $comfyui_dir
+git clone --depth 1 https://github.com/comfyanonymous/ComfyUI
 
-cd $comfyui_dir
+cd ~/ComfyUI
 pip install -r requirements.txt
