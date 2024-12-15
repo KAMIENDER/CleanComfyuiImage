@@ -1,0 +1,45 @@
+#Rename this to extra_model_paths.yaml and ComfyUI will load it
+
+tzwm:
+  base_path: /root/autodl-tmp/models
+  checkpoints: checkpoint
+  configs: checkpoint
+  vae: vae
+  loras: |
+    lora
+    ip_adapter_faceid/lora
+  upscale_models: upscaler
+  embeddings: embeddings
+  hypernetworks: embeddings
+  controlnet: controlnet
+  ipadapter: |
+    ip_adapter_faceid/models
+    ip_adapter
+  clip_vision: clip_vision
+  unet: unet
+  animatediff_models: animatediff_model
+  animatediff_motion_lora: animatediff_lora
+  AnimateDiff: AnimateDiff
+  AnimateDiffLora: AnimateDiffLora
+
+fs:
+  base_path: /root/autodl-fs/models
+  checkpoints: checkpoint
+  configs: checkpoint
+  vae: vae
+  loras: |
+    lora
+    ip_adapter_faceid/lora
+  upscale_models: upscaler
+  embeddings: embeddings
+  hypernetworks: embeddings
+  controlnet: controlnet
+  ipadapter: |
+    ip_adapter_faceid/models
+    ip_adapter
+  clip_vision: clip_vision
+  unet: unet
+  animatediff_models: animatediff_model
+  animatediff_motion_lora: animatediff_lora
+  AnimateDiff: AnimateDiff
+  AnimateDiffLora: AnimateDiffLora
