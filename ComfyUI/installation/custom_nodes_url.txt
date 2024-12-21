@@ -1,0 +1,3 @@
+https://github.com/ltdrdata/ComfyUI-Manager.git
+https://github.com/chrisgoringe/cg-use-everywhere.git
+https://github.com/chibiace/ComfyUI-Chibi-Nodes/
